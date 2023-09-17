@@ -232,7 +232,7 @@ background-color: rgb(34, 122, 236) !important;
 .nav-link:hover{
     border: solid 2px purple !important;
 }
-@media  (min-width: 590px ) and (max-width:800px) {
+@media  (min-width: 300px ) and (max-width:800px) {
     .btn1{
         width: 30vw;
         top: 31vh;
