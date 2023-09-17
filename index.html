@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>FeelUnique</title>
+
+</head>
+<body>
+<!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container-fluid">
+      <a class="navbar-brand fw-bolder fs-2 ms-5" href="#">FeelUnique</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bar">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Makeup</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SkinCare
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">MOISTURISERS</a></li>
+              <li><a class="dropdown-item" href="#">CLEANSERS</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">EYE CARE</a></li>
+              <li><a class="dropdown-item" href="#">FACE MASKS</a></li>
+              <li><a class="dropdown-item" href="#">TONER</a></li>
+              <li><a class="dropdown-item" href="#">SKIN CONCERNS</a></li>
+              <li><a class="dropdown-item" href="#">SERUMS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hair</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div>
+
+          <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary mx-lg-4 mt-3 mt-lg-0" style="background-color:  rgb(166, 87, 239); border: none;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="background-color: rgb(166, 87, 239);">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Email Address</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" >
+                    <p style="color: rgb(164, 161, 161);">we'll never share your email with anyone else. </p>
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                  </div>
+
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                  </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" style="background-color: rgb(166, 87, 239);">Login</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+        </div>
+     </div>
+   </nav>
+   <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- >>>>>>>>> Main Section <<<<<<<<<<<<<<<<<<  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="team-overlay">
+        <a href=""><i class="fab fa-facebook-square icon" style="color: rgba(170, 72, 197, 0.7);"></i></a>
+        <a href=""><i class="fab fa-twitter icon" style="color: rgba(170, 72, 197, 0.7);"></i></a>
+        <a href=""><i class="fab fa-linkedin icon" style="color: rgba(170, 72, 197, 0.7);"></i></a>
+        <a href=""><i class="fab fa-instagram-square icon" style="color: rgba(170, 72, 197, 0.7);"></i></a>
+        <a href=""><i class="fab fa-whatsapp-square icon" style="color: rgba(170, 72, 197, 0.7);"></i></a>
+     </div>
+      
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+       
+         <div class="carousel-item active">
+        
+          <img src="images/03ab6db5-e590-4088-80f5-ab639dbf0966.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 670px;">
+          
+          <div class="carousel-caption first d-block ">
+            <h5 style="opacity: 1;">First slide label</h5>
+            <p class="text-dark">Some representative placeholder content for the first slide.</p>
+          </div>
+         
+        </div>
+        <div class="carousel-item">
+          <img src="images/website-template-preview-45949.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 670px;">
+          <div class="carousel-caption first d-block ">
+            <h5 style="opacity: 1;">Second slide label</h5>
+            <p class="text-dark">Some representative placeholder content for the second slide.</p>
+          </div>
+     
+        </div>
+
+        
+        <div class="carousel-item">
+          <img src="images/buy-me-beauty-website.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 670px;">
+          <div class="carousel-caption first d-block ">
+            <h5 style="opacity: 1;">Third slide label</h5>
+            <p class="text-dark">Some representative placeholder content for the third slide.</p>
+          </div>
+         
+        </div>
+        <div class="carousel-item">
+          <img src="images/12-younique-screenshot.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 670px;">
+          <div class="carousel-caption first d-block ">
+            <h5 style="opacity: 1;">Third slide label</h5>
+            <p class="text-dark">Some representative placeholder content for the fourth slide.</p>
+          </div>
+          
+        </div>
+     
+      </div>
+     
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- >>>>>>>>>>>>> 2nd <<<<<<<<<<<<<<<< -->
+      <div class="container-fluid mt-5">
+        <div class="primaryBanner_container">
+		
+          <a class="primaryBanner_link" href="/brands/cult-beauty/gifts/skin-care-edits.list">
+        
+        <picture class="primaryBanner_image primaryBanner_image-left">
+          <source media="(min-width: 1180px)" srcset="https://static.thcdn.com/images/xlarge/webp/widgets/257-en/43/original-Onsite_Desktop-103343.jpg" crossorigin="">
+          <source media="(min-width: 760px)" srcset="https://static.thcdn.com/images/large/webp/widgets/257-en/46/original-Onsite_Tablet-103346.jpg" crossorigin="">
+          <source srcset="https://static.thcdn.com/images/medium/webp/widgets/257-en/48/original-Onsite_Mobile-103348.jpg" crossorigin="">
+          <img class="primaryBanner_imageLarge primaryBanner_imageLarge-left" src="https://static.thcdn.com/images/medium/webp/widgets/257-en/48/original-Onsite_Mobile-103348.jpg" crossorigin="" alt="Coming soon: the skin care edits. Be the first to hear when these hand-selected line ups curated by our expert Cult Concierge team - plus an enhancing booster kit - arrive!" width="600px" height="600px">
+          <button type="button" class="btn btn-light btn1">Learn More</button>
+        </picture>
+        
+          </a>
+        
+      </div>
+      </div>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <hr>
+    <!-- >>>>>>>>>>>>> 3RD <<<<<<<<<<<<<<<< -->
+    <section>
+
+      <div class="container-fluid py-4 justify-content-center text-center h-50 " style="background-color:  rgba(170, 72, 197, 0.6); font-size: 1.5rem; font-weight: bold;">
+        New Brands
+      </div>
+    
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              AUGUSTINUS BADER            
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>NEW AND EXCLUSIVE</strong> Now in an exclusive flight-friendly size, make The Retinol Serum your skin cell-renewing travel companion
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              MILK MAKEUP
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>DISCOVER</strong> Latching onto your look from day to night, the Hydro Grip range ensures your base stays locked in place.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              BRIOGEO
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>NEW AND EXCLUSIVE</strong> Blended with AHAs, BHAs and PHAs, this gentle pre-wash spray targets congested hair follicles to lift build-up.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <hr>
+    <!-- >>>>>>>>>>>>> 4th <<<<<<<<<<<<<<<< -->
+    <section>
+
+      <div>
+        <!-- <div class="container-fluid py-5 justify-content-center text-center bg-info h-50 shadow-lg">
+          Translate from Arabic to English
+        </div> -->
+        
+        <div class="container-fluid p-4">
+          <div class="primaryBanner_container">
+		
+            <a class="primaryBanner_link" href="/brands/alpha-h/shop-all.list">
+          
+          <picture class="primaryBanner_image primaryBanner_image-left">
+            <source media="(min-width: 1180px)" srcset=https://static.thcdn.com/images/xlarge/webp/widgets/257-en/40/original-GLOBAL_PRIMARY_BANNER_%28Desktop%29-081740.jpg	  crossorigin>
+            <source media="(min-width: 760px)" srcset=https://static.thcdn.com/images/large/webp/widgets/257-en/46/original-GLOBAL_PRIMARY_BANNER_%28Tablet%29-081746.jpg	  crossorigin>
+            <source srcset=https://static.thcdn.com/images/medium/webp/widgets/257-en/52/original-GLOBAL_PRIMARY_BANNER_%28Mobile%29-081752.jpg	  crossorigin>
+            <img class="primaryBanner_imageLarge primaryBanner_imageLarge-left"
+               src=https://static.thcdn.com/images/medium/webp/widgets/257-en/52/original-GLOBAL_PRIMARY_BANNER_%28Mobile%29-081752.jpg	  crossorigin
+               alt="NEED IT NOW ALPHA-H"
+               width="600px"
+               height="600px"
+            >
+          </picture>
+          
+            </a>
+          
+          
+            <div class="primaryBanner_contentWrapper primaryBanner_contentWrapper-left primaryBanner_contentWrapper-dark primaryBanner_contentAlign-center">
+              <div class="primaryBanner_textContainer">
+                
+                  
+                    <div class="primaryBanner_headlineContainer">
+                      
+                        
+                        
+                          <h2 class="primaryBanner_headline primaryBanner_headline-dark ss">NEED IT NOW<br>ALPHA-H</h2>
+                        
+                      
+                    </div>
+                  
+                  
+                
+                
+                  <!-- <p class="primaryBanner_subtitle primaryBanner_subtitle-dark sa">Achieve Aussie-approved glowing skin with Alpha-H and its award-winning exfoliants; designed for all skin concerns.</p> -->
+                
+      
+                <div class="primaryBanner_ctaContainer primaryBanner_ctaContainer- sd">
+                  
+                  <button class="btn btn-dark " id="copy-btn" data-bs-dismiss="alert"  onclick=" coping () ">
+                    Add To Your Car
+                    <div id="copy-popup" >Press To Add</div>
+                    <div id="copied-popup">Added</div>
+                    
+                  </button>
+                  
+                  
+                </div>
+      
+              </div>
+            </div>
+          
+        </div>
+      </div>
+      </div>
+
+          <p class="feed back" style="margin-left: 10vw;">Write your feedback</p>
+          
+        
+  
+          <div class="form-floating ">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; width: 80%; display: inline; margin-left: 10vw;"></textarea>
+            <label for="floatingTextarea2" style="margin-left: 10vw;">Comments</label>
+            <button class="btn btn-dark btn2"  id="copy-btn" data-bs-dismiss="alert"  onclick="Send ()">
+              Send
+              <div id="copy-popup" >Press To Send</div>
+              <div id="copied-popup">Sended</div>
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <hr>
+      <!-- >>>>>>>>>>>>> 4th <<<<<<<<<<<<<<<< -->
+      <div>
+        <div class="primaryBanner_container">
+		
+          <a class="primaryBanner_link" href="/promotions/nca/brands.list">
+        
+        <picture class="primaryBanner_image primaryBanner_image-left">
+          <source media="(min-width: 1180px)" srcset=https://static.thcdn.com/images/xlarge/webp/widgets/257-en/../../widgets/257-eu/16/original-Desktop-113216.jpg	  crossorigin>
+          <source media="(min-width: 760px)" srcset=https://static.thcdn.com/images/large/webp/widgets/257-en/../../widgets/257-eu/18/original-Tablet-113218.jpg	  crossorigin>
+          <source srcset=https://static.thcdn.com/images/medium/webp/widgets/257-en/../../widgets/257-eu/19/original-Mobile-113219.jpg	  crossorigin>
+          <img class="primaryBanner_imageLarge primaryBanner_imageLarge-left"
+             src=https://static.thcdn.com/images/medium/webp/widgets/257-en/../../widgets/257-eu/19/original-Mobile-113219.jpg	  crossorigin
+             alt="15% OFF MUST-TRY SKIN CARE"
+             width="600px"
+             height="600px"
+          >
+        </picture>
+        
+          </a>
+        
+        
+          <div class="primaryBanner_contentWrapper primaryBanner_contentWrapper-left primaryBanner_contentWrapper-dark primaryBanner_contentAlign-center">
+            <div class="primaryBanner_textContainer">
+              
+                
+                  <div class="primaryBanner_headlineContainer">
+                    
+                      
+                      
+                        <h2 class="primaryBanner_headline primaryBanner_headline-dark second">15% OFF MUST-TRY SKIN CARE</h2>
+                      
+                    
+                  </div>
+                
+                
+              
+              
+                <p class="primaryBanner_subtitle primaryBanner_subtitle-dark sa">There’s a first time for everything... We're treating you to 15% off the skin care brands we just can't be without when you shop them for the first time.<br>Use code at checkout*<br>DISCOVER15</p>
+              
+    
+                <div class="primaryBanner_ctaContainer primaryBanner_ctaContainer- second-s">
+                  
+                  <button class="btn btn-dark" id="copy-btn" data-bs-dismiss="alert"  onclick="coping ()">
+                    Add To Your Car
+                    <div id="copy-popup" >Press To Add</div>
+                    <div id="copied-popup">Added</div>
+                  </button>
+                  
+                  
+                </div>
+    
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    
+            </div>
+      </div>
+  
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <hr>
+          <!-- >>>>>>>>>>>>> 4th <<<<<<<<<<<<<<<< -->
+      <div>
+        <div class="primaryBanner_container">
+		
+          <a class="primaryBanner_link" href="brands/summer-fridays/shop-all.list">
+        
+        <picture class="primaryBanner_image primaryBanner_image-left">
+          <source media="(min-width: 1180px)" srcset=https://static.thcdn.com/images/xlarge/webp/widgets/257-en/25/original-0731_53299_CB_CM_August_BOTW_Onsite_BOTM_Desktop-SF-Strip-111225.jpg	  crossorigin>
+          <source media="(min-width: 760px)" srcset=https://static.thcdn.com/images/large/webp/widgets/257-en/29/original-0731_53299_CB_CM_August_BOTW_Onsite_BOTM_Tablet-SF-Strip-111229.jpg	  crossorigin>
+          <source srcset=https://static.thcdn.com/images/medium/webp/widgets/257-en/33/original-0731_53299_CB_CM_August_BOTW_Onsite_BOTM_Mobile-SF-Strip-111233.jpg	  crossorigin>
+          <img class="primaryBanner_imageLarge primaryBanner_imageLarge-left"
+             src=https://static.thcdn.com/images/medium/webp/widgets/257-en/33/original-0731_53299_CB_CM_August_BOTW_Onsite_BOTM_Mobile-SF-Strip-111233.jpg	  crossorigin
+             alt="summer fridays"
+             width="600px"
+             height="600px"
+          >
+        </picture>
+        
+          </a>
+        
+        
+          <div class="primaryBanner_contentWrapper primaryBanner_contentWrapper-left primaryBanner_contentWrapper-dark primaryBanner_contentAlign-center">
+            <div class="primaryBanner_textContainer">
+              
+                
+                  <div class="primaryBanner_headlineContainer">
+                    
+                      
+                      
+                        <h2 class="primaryBanner_headline primaryBanner_headline-dark ss">SUMMER STATE OF MIND: SUMMER FRIDAYS</h2>
+                      
+                    
+                  </div>  
+    
+                <div class="primaryBanner_ctaContainer primaryBanner_ctaContainer- sd">
+                  
+                  <button class="btn btn-dark " id="copy-btn" data-bs-dismiss="alert"  onclick="coping ()">
+                    Add To Your Car
+                    <div id="copy-popup" >Press To Add</div>
+                    <div id="copied-popup">Added</div>
+                  </button>
+                  
+                  
+                </div>
+    
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    
+            </div>
+      </div>
+  
+    </section>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- >>>>>>>>>>>>> 5th <<<<<<<<<<<<<<<< -->
+    <div class="container-fluid" style="background-image: url(images/cruelty-free-makeup-brands-2-1024x683.jpg); min-height:60vh; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; margin-top: 12vh;">
+      <!-- <div style="height: 200px;"></div> -->
+    </div>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- >>>>>>>>>>>>> 6th <<<<<<<<<<<<<<<< -->
+    <section>
+      <div class="container-fluid py-4 justify-content-center text-center h-50 " style="background-color:  rgba(170, 72, 197, 0.6); font-size: 1.5rem; font-weight: bold; margin-top: 20vh;">
+        New Brands
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-evenly px-lg-5 mt-5 list bg-light card-container">
+        
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+                  
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+                  
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+                  
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+                  
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+                  
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+          
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height:50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+                  
+          <div class="card mt-4 shadow-lg hover" style="width: 25rem;">
+            <img src="images/719Sy7XRrNS.jpg" class="card-img-top" alt="..." style="height: 50vh;">
+            <div class="card-body">
+              <h5 class="card-title">INTELLIGENT BEAUTY</h5>
+              <p class="card-text">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+              <a href="#" class="btn btn-primary" style="background-color: rgba(170, 72, 197, 0.7); border: none;">Know More</a>
+            </div>
+          </div> <!-- card -->
+          
+        </div> <!-- Row -->
+      </div>  <!-- container -->
+    </section>
+   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- >>>>>>>>>>>>> 7th <<<<<<<<<<<<<<<< -->
+    <div class="container-fluid" style="background-image: url(images/original-HP_Banners_-_Untitled_Page-082908.png); min-height: 70vh; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; margin-top: 20vh;">
+      <!-- <div style="height: 200px;"></div> -->
+    </div>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- >>>>>>>>>>>>> 8th <<<<<<<<<<<<<<<< -->
+      <section>
+        <div class="container-fluid py-4 justify-content-center text-center h-50 " style="background-color:  rgba(170, 72, 197, 0.6); font-size: 1.5rem; font-weight: bold; margin-top: 20vh; width: 40vw;">
+          New Brands
+        </div>
+        <div class="container pb-5">
+          <div class="row justify-content-evenly px-lg-5 mt-5 list  card-container">
+          
+            <div class="card mt-4 shadow position-relative p-0 transform" style="width: 20rem;  border-radius: 10% !important; box-shadow: 8px 6px 6px 8px gray !important;">
+              <img src="images/Types-of-Makeup-Every-Makeup-Lover-Should-Know.jpg" class="card-img-top w-100" alt="..." style="border-radius: 10%;">
+
+              <div class="person-card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between top-0 start-0 px-3 pt-3 text-light" style="background-color: rgba(21, 20, 20, 0.322); border-radius: 10%;">
+                <div class="h-50">
+                  <p style="font-weight: bold;">NEW AND EXCLUSIVE</p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span style="font-weight: bold;"> Jul 15, 2023</span>
+                </div>
+                <div class="d-flex flex-column justify-content-end ">
+                  <img src="images/360_F_390341049_JvisbDMWnUFy7WatpUjVGf9NJk5HkQRt.jpg" alt="" class="rounded-circle border" style="width: 100px; height: 100px;">
+                  <div class="">
+                    <p style="font-weight: bold;">VOTARY</p>
+                    <p style="font-weight: bold;">Skin Serium</p>
+                  </div>
+                </div>
+              </div> <!-- overlay -->
+
+            </div> <!-- card -->
+            <div class="card mt-4 shadow position-relative p-0 transform" style="width: 20rem;  border-radius: 10% !important; box-shadow: 8px 6px 6px 8px gray !important;">
+              <img src="images/Launch---Sweat-No-More-Makeup-Kit---WBG-Images_11.webp" class="card-img-top w-100" alt="..." style="border-radius: 10%;">
+
+              <div class="person-card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between top-0 start-0 px-3 pt-3 text-light" style="background-color: rgba(21, 20, 20, 0.322); border-radius: 10%;">
+                <div class="h-50">
+                  <p style="font-weight: bold;">NEW AND EXCLUSIVE</p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span style="font-weight: bold;"> Jul 15, 2023</span>
+                </div>
+                <div class="d-flex flex-column justify-content-end ">
+                  <img src="images/closeup-portrait-beautiful-young-woman-with-fashion-makeup-posing-isolated-white_186202-9086.avif" alt="" class="rounded-circle border" style="width: 100px; height: 100px;">
+                  <div class="">
+                    <p style="font-weight: bold;">VOTARY</p>
+                    <p style="font-weight: bold;">Skin Serium</p>
+                  </div>
+                </div>
+              </div> <!-- overlay -->
+
+            </div> <!-- card -->
+            <div class="card mt-4 shadow position-relative p-0 transform" style="width: 20rem; border-radius: 10% !important; box-shadow: 8px 6px 6px 8px gray !important;">
+              <img src="images/D3OZaM0HE10 SUGAR Beauty Products With Great Customer Reviews—And Why They're Worth It.jpg" class="card-img-top w-100" alt="..." style="border-radius: 10%;">
+
+              <div class="person-card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between top-0 start-0 px-3 pt-3 text-light" style="background-color: rgba(21, 20, 20, 0.322); border-radius: 10%;">
+                <div class="h-50">
+                  <p style="font-weight: bold;">NEW AND EXCLUSIVE</p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span style="font-weight: bold;"> Jul 15, 2023</span>
+                </div>
+                <div class="d-flex flex-column justify-content-end">
+                  <img src="images/istockphoto-1331637318-612x612.jpg" alt="" class="rounded-circle " style="width: 100px; height: 100px; ">
+                  <div class="">
+                    <p style="font-weight: bold;">VOTARY</p>
+                    <p style="font-weight: bold;">Skin Serium</p>
+                  </div>
+                </div>
+              </div> <!-- overlay -->
+
+            </div> <!-- card -->
+            
+          </div> <!-- Row -->
+        </div>  <!-- container -->
+      </section>
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <hr>
+      <!-- >>>>>>>>>>>>> 9th <<<<<<<<<<<<<<<< -->
+      <section class="container mb-5">
+        <div class="container-fluid  justify-content-center text-center mt-5">
+          <p>Breaking News</p>
+        </div>
+        
+        <div class="d-flex  bg-light flex-column-reverse flex-lg-row " >
+          <div class="container p-5 ">
+            <div>
+              <h2>Votary</h2>
+              <p> 
+                <i class="fa-regular fa-newspaper"></i> 
+                <span>Mon May 25 2023</span>
+              </p>
+              <div class="bg-secondary " style="height: 5px; width: 10%; margin-bottom: 2vh;"></div> <!-- line -->
+            </div>
+            <p class="">With three brightening, nine skin-smoothing and 12 hydrating actives, the powerful Night Star Serum rejuvenates your skin while you sleep.</p>
+            <div>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-thumbs-up" style="
+                background-color: gray;"></i> Like</button>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-share-square" style="
+                background-color: gray;"></i> share</button>
+              <button class="btn btn-primary btn4" style="width: 10vw; height: 5vh; background-color: gray; border: none;"><i class="fas fa-cart-arrow-down" style="
+                background-color: gray;"></i> Shop Now</button>
+            </div>
+          </div> <!--  text container -->
+
+          <div class="container-fluid  bg-secondary news-img" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%); min-height: 300px;">
+            <img src="images/original-votary_side_box-093711.webp">
+
+          </div> <!-- img box -->
+        </div> <!-- container box -->
+<!-- ----------------------------------- -->
+
+        <div class="d-flex  bg-light flex-column flex-lg-row" >
+          <div class="container-fluid  bg-primary news-img" style="clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%); min-height: 300px;">
+  <img src="images/original-MilkHydro_SideBox_-012935.webp">
+          </div> <!-- img box -->
+          <div class="container p-5 ">
+            <div>
+              <h2>MILK MAKEUP</h2>
+              <p> 
+                <i class="fa-regular fa-newspaper"></i> 
+                <span>Mon May 25 2023</span>
+              </p>
+              <div class="bg-primary " style="height: 5px; width: 10%; margin-bottom: 2vh;"></div> <!-- line -->
+            </div>
+            <p class="">Latching onto your look from day to night, the Hydro Grip range ensures your base stays locked in place.</p>
+            <div>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-thumbs-up" style="
+                background-color: gray;"></i> Like</button>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-share-square" style="
+                background-color: gray;"></i> share</button>
+              <button class="btn btn-primary btn4" style="width: 10vw; height: 5vh; background-color: gray; border: none;"><i class="fas fa-cart-arrow-down" style="
+                background-color: gray;"></i> Shop Now</button>
+            </div>
+          </div> <!--  text container -->
+        </div> <!-- container box -->
+        <!-- --------------------------------------- -->
+
+        <div class="d-flex  bg-light flex-column-reverse flex-lg-row" >
+          <div class="container p-5 ">
+            <div>
+              <h2>DRUNK ELEPHANT</h2>
+              <p> 
+                <i class="fa-regular fa-newspaper"></i> 
+                <span>Mon May 25 2023</span>
+              </p>
+              <div class="bg-danger " style="height: 5px; width: 15%; margin-bottom: 2vh;"></div> <!-- line -->
+            </div>
+            <p>Sign up now to hear when the EXCLUSIVE B-Goldie Bright Drops arrive... a skincare-makeup hybrid that delivers glow without glitter.</p>
+            <div>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-thumbs-up" style="
+                background-color: gray;"></i> Like</button>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-share-square" style="
+                background-color: gray;"></i> share</button>
+              <button class="btn btn-primary btn4" style="width: 10vw; height: 5vh; background-color: gray; border: none;"><i class="fas fa-cart-arrow-down" style="
+                background-color: gray;"></i> Shop Now</button>
+            </div>
+          </div> <!--  text container -->
+
+          <div class="container-fluid  bg-danger news-img" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%); min-height: 300px">
+            <img src="images/original-DE_b_goldi_side_box_copy_2-093727.webp">
+
+          </div> <!-- img box -->
+        </div> <!-- container box -->
+<!-- ----------------------------------- -->
+
+        <div class="d-flex  bg-light flex-column flex-lg-row" >
+          <div class="container-fluid  bg-dark news-img" style="clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%); min-height: 300px">
+  <img src="images/original-SF_BOTW_Blog-114838.webp">
+          </div> <!-- img box -->
+          <div class="container p-5 ">
+            <div>
+              <h2>T.G.I SUMMER FRIDAYS... EVERYDAY</h2>
+              <p> 
+                <i class="fa-regular fa-newspaper"></i> 
+                <span>Mon May 25 2023</span>
+              </p>
+              <div class="bg-dark " style="height: 5px; width: 20%; margin-bottom: 2vh;"></div> <!-- line -->
+            </div>
+            <p class="">With simple yet sensorial staples beckoning radiant skin to the forefront, revamp your beauty-drobe in 3, 2, 1...</p>
+            <div>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-thumbs-up" style="
+                background-color: gray;"></i> Like</button>
+              <button class="btn btn-primary btn3" style="width: 5vw; height: 5vh; background-color: gray; border: none;"><i class="far fa-share-square" style="
+                background-color: gray;"></i> share</button>
+              <button class="btn btn-primary btn4" style="width: 10vw; height: 5vh; background-color: gray; border: none;"><i class="fas fa-cart-arrow-down" style="
+                background-color: gray;"></i> Shop Now</button>
+            </div>
+          </div> <!--  text container -->
+
+        </div> <!-- container box -->
+
+      </section>
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <hr>
+      <!-- >>>>>>>>>>>>> 10th <<<<<<<<<<<<<<<< -->
+      <section>
+        <div class="container mt-4 pt-2">
+          <div class="d-flex flex-wrap justify-content-evenly px-lg-5 mt-5 list bg-light card-container mb-5">
+          
+            <div class="card" style="width: 15rem;">
+              <div class="card-body d-flex flex-column align-items-center" style="  box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2);
+              ">
+                <h5 class="card-title">Card title</h5>
+                <img src="images/twitter-preview.png" class= "d-block w-50 rounded-5 mb-4 mt-3 social" alt="" style="box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2) ;">      
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div> <!-- card link -->
+            
+            <div class="card" style="width: 15rem;">
+              <div class="card-body d-flex flex-column align-items-center" style="  box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2);">
+                <h5 class="card-title">Card title</h5>
+                <img src="images/whatsapp-preview.png"  class= "d-block w-50 rounded-5 mb-4 mt-3 social"  alt="" style="box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2) ;">
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div> <!-- card link -->
+
+            <div class="card" style="width: 15rem;">
+              <div class="card-body d-flex flex-column align-items-center" style="  box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2);">
+                <h5 class="card-title">Card title</h5>
+                <img src="images/linkedIn-preview.png" class= "d-block w-50 rounded-5 mb-4 mt-3 social"  alt="" style="box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2) ;">
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div> <!-- card link -->
+            <div class="card" style="width: 15rem;">
+              <div class="card-body d-flex flex-column align-items-center" style="  box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2);">
+                <h5 class="card-title">Card title</h5>
+                <img src="images/Instgram.png" class= "d-block w-50 rounded-5 mb-4 mt-3 social"  alt="" style="box-shadow: 4px 12px 30px 4px rgba(0, 0, 0, 0.4), 2px 6px 20px 2px rgba(0, 0, 0, 0.2) ;">
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div> <!-- card link -->
+          
+          
+          </div>
+        </div>
+      </section>
+<section>
+
+    <footer class="text-white text-center text-lg-start" style="background-color: rgb(152, 151, 151);">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">About company</h5>
+  
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            voluptatum deleniti atque corrupti.
+          </p>
+  
+          <p>
+            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+            molestias.
+          </p>
+  
+          <div class="mt-4">
+            <!-- Facebook -->
+            <a type="button" class="btn btn-floating btn-lg" style="background-color: blueviolet;"><i class="fab fa-facebook-f"></i></a>
+            <!-- Dribbble -->
+            <a type="button" class="btn btn-floating btn-lg"  style="background-color: blueviolet;"><i class="fab fa-dribbble"></i></a>
+            <!-- Twitter -->
+            <a type="button" class="btn btn-floating  btn-lg"  style="background-color: blueviolet;"><i class="fab fa-twitter"></i></a>
+            <!-- Google + -->
+            <a type="button" class="btn btn-floating  btn-lg"  style="background-color: blueviolet;"><i class="fab fa-google-plus-g"></i></a>
+            <!-- Linkedin -->
+          </div>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+  
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Search</label>
+          </div>
+  
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Opening hours</h5>
+  
+          <table class="table text-center text-white">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9am - 10pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+<!-- End of .container -->
+</section>
+      
+
+
+
+
+
+
+
+
+
+
+
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+
+</body>
+</html>
