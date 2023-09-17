@@ -232,7 +232,7 @@ background-color: rgb(34, 122, 236) !important;
 .nav-link:hover{
     border: solid 2px purple !important;
 }
-@media  (min-width: 300px ) and (max-width:800px) {
+@media  (min-width: 240px ) and (max-width:800px) {
     .btn1{
         width: 30vw;
         top: 31vh;
@@ -241,6 +241,7 @@ background-color: rgb(34, 122, 236) !important;
     .ss{
         left: 45vw;
         width: 50vw;
+        font-size: 0.7rem;
     }
     .sd{
         width: 50vw;
@@ -252,20 +253,20 @@ background-color: rgb(34, 122, 236) !important;
     }
     .second{
         top: 8vh;
-        left: 12vw;
+        left: 45vw;
+        width: 50vw;
     }
     .sa{
-        top: 40vh;
+        top: 25vh;
         left: 50vw;
         width: 90vw;
         font-weight: bold;
         color: #fbfbfb;
-        font-size: 1.2rem;
+        font-size: 0.7rem;
     }
     .second-s{
-       top: 60vh;
-    left: 50vw;
-        width: 30vw;
+        width: 50vw;
+        left: 45vw;
     }
     .btn3, .btn4{
         width: 15vw !important;
